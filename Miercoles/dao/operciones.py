@@ -1,5 +1,3 @@
-from Modelos import clase as c
-
 class ProductoDao:
     def __init__(self):
         self.registros = []
