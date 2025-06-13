@@ -9,6 +9,6 @@ class persistenciaDao:
         except FileNotFoundError:
             self.registro = []
     
-    def guardar_archivo(self,texto =None):
+    def guardar_archivo(self):
         with open(self.ruta_archivo,"w") as archivo:
             archivo.write(str(self.registro))
